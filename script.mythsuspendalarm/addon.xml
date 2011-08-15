@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.mythsuspendalarm"
+       name="MythTV Suspend and Wake"
+       version="0.1"
+       provider-name="el_Paraguayo">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  <import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+ <provides>executable</provides>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">MythTV Suspend and Wake</summary>
+    <description lang="en">Suspends machine and sets wake alarm in time for next MythTV recording.</description>
+  </extension>
+</addon>

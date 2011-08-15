@@ -1,0 +1,24 @@
+<settings>
+<category label="30050">
+   <setting id="boottime" type="number" label="30000" default="300"/>
+   <setting id="aborttime" type="number" label="30007" default="15"/>
+   <setting id="minshutdown" type="number" label="30010" default="120"/>
+   <setting id="actiontype" type="enum" label="30008" values="suspend|hibernate" default="suspend"/>
+
+   <setting id="alarmtype" type="enum" label="30009" values="utc|incremental" default="utc"/>
+   <setting id="sessiontypes" type="text" label="30001" default="www,ssh"/>
+ <setting id="alarmscript" type="file" label="30006" default="/usr/local/bin/setwakealarm"/>
+ <setting id="statusscript" type="file" label="30011" default="/usr/local/bin/mythshutdownstatus"/>
+</category>
+<category label="30051">
+   <setting id="sqlhost" type="text" label="30002" default="localhost"/>
+ <setting id="sqluser" type="text" label="30003" default="mythtv"/>
+ <setting id="sqlpw" type="text" label="30004" default="mythtvdbpword"/>
+ <setting id="sqldb" type="text" label="30005" default="mythconverg"/>
+
+</category>
+
+   <!--<setting id="perpage" type="enum" label="30003" values="5|10|15|20|25|30" default="3"/>
+   <setting id="full_details" type="bool" label="30004" default="false"/>-->
+</settings>
+

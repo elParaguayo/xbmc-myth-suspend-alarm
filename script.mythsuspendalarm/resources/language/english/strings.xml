@@ -1,0 +1,16 @@
+<strings>
+    <string id="30000">Wake up time (seconds)</string>
+    <string id="30001">Session types to check for (separate by commas)</string>
+    <string id="30009">Use UTC value or incremental (e.g. +500) for wake-up time</string>
+    <string id="30002">MySQL host</string>
+    <string id="30003">MythTV MySQL username</string>
+    <string id="30004">MythTV MySQL password</string>
+    <string id="30005">MythTV MySQL database</string>
+    <string id="30006">Path to alarm script</string>
+    <string id="30007">User abort timeout (seconds)</string>
+    <string id="30008">Power-down type</string>
+    <string id="30010">Minimum time until next recording (mins)</string>
+    <string id="30011">Path to backend status script</string>
+    <string id="30050">General</string>
+    <string id="30051">Myth Database</string>
+</strings>
